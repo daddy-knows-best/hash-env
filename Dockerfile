@@ -26,6 +26,6 @@ RUN set -ex && \
   hci -a -p c && \
   hci -a -p p && \
   hci -a -p t && \
-  hci -a -p v 
+  hci -a -p v
 
 WORKDIR ${WORKDIR}
