@@ -2,7 +2,7 @@
 hash-env for Daddy Knows Best
 
 # history
-03/08/2024 hash-env initiated
+03/08/2024 hash-env initiated, updated README.md
 
 # how to run
 
@@ -24,4 +24,4 @@ Terraform v1.7.4
 on linux_amd64
 05:10:26 ubuntu@751f2cd90584 dev-env ±|readme|→ vault -v
 Vault v1.15.6 (615cf6f1dce9aa91bc2035ce33b9f689952218f0), built 2024-02-28T17:07:34Z
-05:10:37 ubuntu@751f2cd90584 dev-env ±|readme|→ 
+05:10:37 ubuntu@751f2cd90584 dev-env ±|readme|→
