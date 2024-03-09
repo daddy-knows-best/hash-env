@@ -9,7 +9,7 @@ services:
     privileged: true
     build:
       context: .
-    image: ghcr.io/daddy-knows-best/dev-env:main
+    image: ghcr.io/daddy-knows-best/hash-env:main
     volumes:
       # For future ssh use in development
       - ~/.ssh:/home/ubuntu/.ssh:ro
