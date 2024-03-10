@@ -10,7 +10,6 @@ hash-env for Daddy Knows Best
 $ docker compose pull
 
 $ docker compose run --rm dev-env
-$ docker compose run --rm dev-env
 05:10:10 ubuntu@751f2cd90584 dev-env ±|readme|→ consul -v
 Consul v1.18.0
 Revision 349cec17
