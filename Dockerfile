@@ -1,7 +1,5 @@
 FROM ghcr.io/daddy-knows-best/dev-env:latest
 ARG USERNAME=ubuntu
-ARG USER_UID=1000
-ARG USER_GID=1000
 ENV WORKDIR=/dev-env
 
 LABEL "maintainer"="Daddy Knows Best"
