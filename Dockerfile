@@ -12,12 +12,13 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 
 RUN set -ex && \
-  apt update && \
-  apt install -y \
+  sudo rm /etc/apt/sources.list.d/kubernetes.list &&  \
+  sudo apt update && \
+  sudo apt install -y \
   qemu-utils qemu-system cloud-image-utils && \
-  apt autoremove -y && \
-  apt clean -y \
-  rm -rf /var/lib/apt/lists/*
+  sudo apt autoremove -y && \
+  sudo apt clean && \
+  sudo apt autoclean
 
 # vault & consul latest
 RUN set -ex && \
