@@ -4,6 +4,7 @@ hash-env for Daddy Knows Best
 
 # history
 
+- 12/07/2024 added qemu env
 - 03/08/2024 hash-env initiated, updated README.md
 - 09/26/24 updated with the new base image ubuntu 24 [ISSUE-27](https://github.com/daddy-knows-best/hash-env/issues/27)
 
